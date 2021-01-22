@@ -89,9 +89,9 @@
     <AndroidResource Include="Resources\drawable\icon_feed.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\App1\App1.csproj">
-      <Project>{DDBECA5F-74C6-4D91-A9CB-3C6C604C7346}</Project>
-      <Name>App1</Name>
+    <ProjectReference Include="..\App1\App.Xamarin.Shared.csproj">
+      <Project>{F92153BF-AD3E-4E11-AEB1-37A22C836762}</Project>
+      <Name>App.Xamarin.Shared</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

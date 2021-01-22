@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.Android", "App1\App1.Android\App1.Android.csproj", "{B97CC5D5-12AF-451C-8EBD-CD7F04CF19FD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App1", "App1\App1\App1.csproj", "{F92153BF-AD3E-4E11-AEB1-37A22C836762}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Xamarin.Shared", "App1\App1\App.Xamarin.Shared.csproj", "{F92153BF-AD3E-4E11-AEB1-37A22C836762}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Uwp", "App.Uwp\App.Uwp.csproj", "{F7F0D1A1-6B62-423C-967D-08300BD299EF}"
 EndProject
@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.WPF", "App.WPF\MyApp.WPF.csproj", "{7DD78624-3171-4538-BF83-A872CD39C345}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -108,6 +110,26 @@ Global
 		{F7F0D1A1-6B62-423C-967D-08300BD299EF}.Release|x86.ActiveCfg = Release|x86
 		{F7F0D1A1-6B62-423C-967D-08300BD299EF}.Release|x86.Build.0 = Release|x86
 		{F7F0D1A1-6B62-423C-967D-08300BD299EF}.Release|x86.Deploy.0 = Release|x86
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Debug|ARM.Build.0 = Debug|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Debug|x64.Build.0 = Debug|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Debug|x86.Build.0 = Debug|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Release|ARM.ActiveCfg = Release|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Release|ARM.Build.0 = Release|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Release|ARM64.Build.0 = Release|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Release|x64.ActiveCfg = Release|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Release|x64.Build.0 = Release|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Release|x86.ActiveCfg = Release|Any CPU
+		{7DD78624-3171-4538-BF83-A872CD39C345}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

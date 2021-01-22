@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <!--<TargetFramework>netframework4.8</TargetFramework>-->
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Remove="**\*.xaml" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Xamarin.Forms.Platform.WPF" Version="5.0.0.1905" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\App1\App1\App.Xamarin.Shared.csproj" />
+    </ItemGroup>
+
+</Project>
